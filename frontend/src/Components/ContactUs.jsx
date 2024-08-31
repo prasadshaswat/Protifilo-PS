@@ -17,7 +17,7 @@ const ContactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://backend-swart-chi-72.vercel.app/', {
+      const response = await fetch('https://shaswat.onrender.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
