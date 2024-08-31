@@ -106,19 +106,20 @@ const Home = () => {
           transition={{ delay: 1, duration: 0.6, ease: 'easeInOut' }}
         >
           <p>
-            <strong>Available for new opportunities starting January 15, 2024</strong> — Let’s discuss how I can contribute to your team.
-          </p>
-          <p>
-            <strong>
-              Seeking roles in Web Development and Enterprise Software Development, Backend Engineering, and Senior SDE positions.
-            </strong>
-            <br />
-          </p>
-          <p>
-            <strong>
-              Enthusiastic about writing clean code, designing robust systems, tackling complex challenges, embracing new technologies, and making a meaningful impact.
-            </strong>
-          </p>
+  <strong>Available for new opportunities starting January 15, 2024 🚀</strong> — Excited to join a team where I can use my skills in frontend and backend development!
+</p>
+<p>
+  <strong>
+    Looking for roles in Web Development, Backend Engineering, and Senior Developer positions 🌟. Ready to tackle new challenges and build awesome solutions!
+  </strong>
+  <br />
+</p>
+<p>
+  <strong>
+    Passionate about writing clean code, designing cool systems, and learning new tech. Let’s make a difference together! 💻✨
+  </strong>
+</p>
+
         </motion.div>
       </div>
     </section>
