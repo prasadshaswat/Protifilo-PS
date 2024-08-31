@@ -74,7 +74,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6, ease: 'easeInOut' }}
         >
-          <a href="https://www.linkedin.com/in/prasadshaswat" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/shaswat-prasad-14b147266/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} className="text-blue-600 cursor-pointer" />
           </a>
           <a href="https://github.com/prasadshaswat" target="_blank" rel="noopener noreferrer">

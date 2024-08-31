@@ -1,4 +1,3 @@
-// frontend/src/components/ContactUs.jsx
 
 import React, { useState } from 'react';
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
@@ -38,45 +37,45 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex flex-col items-center p-12 bg-gray-100">
-      <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg">
+    <section id="contact" className="min-h-screen flex flex-col items-center p-12 ">
+      <div className="w-full max-w-lg bg-orange-100 p-8 rounded-lg shadow-lg">
         {/* Contact Form */}
         <div>
-          <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Contact Us</h2>
+          <h2 className="text-3xl font-bold text-black-800 mb-6 text-center">Contact Us</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label htmlFor="name" className="block text-gray-700 text-sm font-semibold mb-2">Name</label>
+              <label htmlFor="name" className="block text-black-700 text-sm font-semibold mb-2">Name</label>
               <input
                 type="text"
                 id="name"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full p-3 border border-gray-300 rounded-md"
+                className="w-full p-3 border border-black-300 rounded-md"
                 required
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="email" className="block text-gray-700 text-sm font-semibold mb-2">Email</label>
+              <label htmlFor="email" className="block text-black-700 text-sm font-semibold mb-2">Email</label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full p-3 border border-gray-300 rounded-md"
+                className="w-full p-3 border border-black-300 rounded-md"
                 required
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-gray-700 text-sm font-semibold mb-2">Message</label>
+              <label htmlFor="message" className="block text-black-700 text-sm font-semibold mb-2">Message</label>
               <textarea
                 id="message"
                 name="message"
                 rows="4"
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full p-3 border border-gray-300 rounded-md"
+                className="w-full p-3 border border-black-300 rounded-md"
                 required
               ></textarea>
             </div>
@@ -87,24 +86,24 @@ const ContactUs = () => {
               Send
             </button>
           </form>
-          {status && <p className="mt-4 text-center text-gray-600">{status}</p>}
+          {status && <p className="mt-4 text-center text-black-600">{status}</p>}
         </div>
 
         {/* Social Media Links */}
         <div className="flex justify-center space-x-6 mt-8">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/prasadshaswat" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub size={30} className="text-gray-800 hover:text-gray-600 transition-colors duration-300" />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/shaswat-prasad-14b147266/?originalSubdomain=in" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin size={30} className="text-blue-600 hover:text-blue-400 transition-colors duration-300" />
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <a href="https://x.com/pr17745?t=fAajl19pfFzI-91IvOUmOA&s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <FaTwitter size={30} className="text-blue-400 hover:text-blue-300 transition-colors duration-300" />
           </a>
-          <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/prasadshaswat/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram size={30} className="text-pink-500 hover:text-pink-400 transition-colors duration-300" />
           </a>
-          <a href="mailto:your-email@example.com" aria-label="Email">
+          <a href="mailto:hbvgsjhf@gmail.com" aria-label="Email">
             <FaEnvelope size={30} className="text-gray-600 hover:text-gray-400 transition-colors duration-300" />
           </a>
         </div>

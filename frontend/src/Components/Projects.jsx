@@ -10,7 +10,7 @@ const projects = [
     description: "A personal portfolio website showcasing my skills, projects, and experience. Built with React, Tailwind CSS, and Framer Motion.",
     date: "August 2024",
     liveLink: "https://prasadshaswat.github.io/shaswat_protfilo/",
-    githubLink: "https://github.com/prasadshaswat/portfolio-website",
+    githubLink: "https://github.com/prasadshaswat/shaswat_protfilo",
     image: protifiloImage
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     description: "A website providing study materials and resources for UPSC and GATE exams. Developed using HTML, CSS, JavaScript, and SCSS.",
     date: "May 2024",
     liveLink: "https://lnkd.in/dv-GFVDY",
-    githubLink: "https://github.com/prasadshaswat/upsc-gate-study-material",
+    githubLink: "https://github.com/shaswat2031/GATE-UPSC-WEBSITE",
     image: gateupscImage
   }
 ];

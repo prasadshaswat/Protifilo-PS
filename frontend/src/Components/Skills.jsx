@@ -53,7 +53,7 @@ const Skills = () => {
       </div>
 
       {/* GitHub Commit Graph */}
-      <div className="mt-16">
+      {/* <div className="mt-16">
         <h3 className="text-3xl font-bold text-gray-800 mb-6 text-center">GitHub Commit Graph</h3>
         <div className="flex justify-center">
           <img
@@ -62,7 +62,7 @@ const Skills = () => {
             className="w-full max-w-4xl border border-gray-300 rounded-lg"
           />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
