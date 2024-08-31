@@ -1,4 +1,3 @@
-// frontend/src/components/ContactUs.jsx
 
 import React, { useState } from 'react';
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
