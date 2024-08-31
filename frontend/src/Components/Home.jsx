@@ -106,17 +106,17 @@ const Home = () => {
           transition={{ delay: 1, duration: 0.6, ease: 'easeInOut' }}
         >
           <p>
-  <strong>Available for new opportunities starting January 15, 2024 🚀</strong> — Excited to join a team where I can use my skills in frontend and backend development!
+  <strong>Available for internships or part-time roles starting January 15, 2024 🚀</strong> — Eager to bring my skills in frontend and backend development to a dynamic team!
 </p>
 <p>
   <strong>
-    Looking for roles in Web Development, Backend Engineering, and Senior Developer positions 🌟. Ready to tackle new challenges and build awesome solutions!
+    Seeking opportunities in Web Development, Backend Engineering, and Software Development 🌟. Ready to learn, contribute, and grow in a real-world setting!
   </strong>
   <br />
 </p>
 <p>
   <strong>
-    Passionate about writing clean code, designing cool systems, and learning new tech. Let’s make a difference together! 💻✨
+    Passionate about coding, problem-solving, and exploring new technologies. Let’s create something amazing together! 💻✨
   </strong>
 </p>
 
