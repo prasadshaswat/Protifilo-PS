@@ -1,3 +1,5 @@
+// frontend/src/components/ContactUs.jsx
+
 import React, { useState } from 'react';
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
@@ -15,7 +17,7 @@ const ContactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://localhost:5000', {
+      const response = await fetch('http://localhost:5000', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -25,7 +27,7 @@ const ContactUs = () => {
 
       if (response.ok) {
         setStatus('Message sent successfully!');
-        setFormData({ name: '', email: '', message: '' }); // Clear form after successful submission
+        setFormData({ name: '', email: '', message: '' });
       } else {
         setStatus('Error sending message.');
       }
