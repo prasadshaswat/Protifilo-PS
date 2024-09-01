@@ -14,13 +14,13 @@ const Home = () => {
       setAnimateClass('falling-text bold-text');
     }, 500);
 
-    const animationDuration = 3000; 
+    const animationDuration = 2000; 
 
     const resetAnimation = () => {
       setAnimateClass('');
       setTimeout(() => {
         setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-        setAnimateClass('falling-text bold-text');
+        setAnimateClass('shake-text');
       }, animationDuration);
     };
 
@@ -49,7 +49,7 @@ const Home = () => {
             transition={{ delay: 0.2, duration: 0.6, ease: 'easeInOut' }}
             style={{ fontFamily: "'Roboto Slab', serif" }} 
           >
-            HELLO WORLD! 🌏🌏
+            HELLO WORLD! 🌏
           </motion.span>
           <span>I AM <span className="text-orange-600">Prasad Shaswat</span></span>
         </motion.div>
